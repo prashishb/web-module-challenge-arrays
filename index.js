@@ -46,7 +46,8 @@ Use the copy function below to do the following:
 */
 
 function copy(arr){
-  return arr;
+  let arrCopy = [...arr];
+  return arrCopy;
 }    
 
 console.log(copy(originalFlavors));
